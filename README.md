@@ -13,6 +13,30 @@ If you use our code, please cite our paper.
 }
 ```
 
+Table of Contents
+=================
+  * [Requirements](#requirements)
+     * [Installing COCO API](#installing-coco-api)
+  * [Getting The Data](#getting-the-data)
+     * [COCO Dataset](#coco-dataset)
+     * [COCO-Tasks Dataset](#coco-tasks-dataset)
+     * [Final Directory Structure](#final-directory-structure)
+  * [Reproducing Results](#reproducing-results)
+     * [General Information](#general-information)
+        * [Settings](#settings)
+        * [Seeds](#seeds)
+        * [Running on Detections vs. on Ground Truth Bounding Boxes](#running-on-detections-vs-on-ground-truth-bounding-boxes)
+        * [Changing the Detector](#changing-the-detector)
+     * [Baselines](#baselines)
+        * [1. Classifier Baseline](#1-classifier-baseline)
+        * [2. Ranker Baseline](#2-ranker-baseline)
+     * [Ablation Experiments and Proposed Method](#ablation-experiments-and-proposed-method)
+        * [1. Ablation: Joint Classifier](#1-ablation-joint-classifier)
+        * [2. Ablation: Joint Classifier   Class](#2-ablation-joint-classifier--class)
+        * [3. Ablation: Joint GGNN   Class (  Weighted Aggregation)](#3-ablation-joint-ggnn--class--weighted-aggregation)
+        * [4. Proposed Method (  Fusion)](#4-proposed-method--fusion)
+  * [Bugs, Feedback and Questions](#bugs-feedback-and-questions)
+
 ## Requirements
 
 The two main dependencies are:
