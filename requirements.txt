@@ -1,6 +1,6 @@
 Pillow
 boltons==18.0.1
-numpy==1.14.5
+numpy>=1.22
 torch==1.13.1
 torchvision==0.2.1
 tqdm==4.25.0
