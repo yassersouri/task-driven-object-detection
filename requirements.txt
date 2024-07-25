@@ -1,7 +1,7 @@
 Pillow
 boltons==18.0.1
 numpy>=1.22
-torch==1.13.1
+torch==2.2.0
 torchvision==0.2.1
 tqdm==4.25.0
 tensorboardX==1.4
